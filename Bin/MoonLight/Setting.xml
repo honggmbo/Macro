@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MouseMacro>
+	<Config>
+		<DefaultResolution x="1600" y="900"/>
+		<Resolution x="1600" y="900"/>
+		<Menu>
+			<Action name="알람" x="1110" y="53" />
+			<Action name="우편" x="1200" y="53" />
+			<Action name="샵" x="1280" y="53" />
+			<Action name="스킬" x="1370" y="53" />
+			<Action name="인벤" x="1450" y="53" />
+			<Action name="메뉴" x="1560" y="53" />
+			<Action name="맵" x="1440" y="263" />
+			<Action name="퀘스트1" x="1550" y="413" />
+			<Action name="퀘스트2" x="1550" y="463" />
+			<Action name="물약1" x="1090" y="763" />
+			<Action name="물약2" x="1180" y="763" />
+			<Action name="물약3" x="1270" y="763" />
+			<Action name="물약4" x="1360" y="763" />
+			<Action name="물약5" x="1450" y="763" />
+			<Action name="스킬1" x="1090" y="843" />
+			<Action name="스킬2" x="1180" y="843" />
+			<Action name="스킬3" x="1270" y="843" />
+			<Action name="스킬4" x="1360" y="843" />
+			<Action name="스킬5" x="1450" y="843" />
+			<Action name="자동사냥" x="450" y="823" />
+			<Action name="종료" x="1570" y="23" />
+			<Action name="사냥터1" x="1524" y="497" />
+			<Action name="사냥터2" x="1490" y="419" />
+			<Action name="사냥터3" x="1100" y="300" />
+			<Action name="사냥터4" x="1038" y="238" />
+			<Action name="사냥터5" x="1485" y="320" />
+			<Action name="사냥터6" x="1048" y="165" />
+			<Action name="사냥터7" x="1080" y="477" />
+			<Action name="사냥터8" x="1497" y="567" />
+			<Action name="사냥터9" x="1393" y="662" />
+			<Action name="사냥터10" x="1148" y="612" />
+			<Action name="사냥터11" x="1276" y="193" />
+			<Action name="사냥터12" x="1266" y="337" />
+			<Action name="사냥터13" x="1122" y="679" />
+			<Action name="사냥터14" x="1070" y="572" />
+			<Action name="사냥터15" x="1010" y="672" />
+			<Action name="사냥터16" x="1550" y="645" />
+			<Action name="사냥터17" x="1145" y="562" />
+			<Action name="바로가기" x="860" y="713" />
+			<Action name="확인" x="999" y="518" />
+			<Action name="취소" x="643" y="518" />
+			<Action name="기본클릭" x="220" y="23" />
+			<Action name="반퀘NPC클릭" x="970" y="463" />
+			<Action name="물약NPC" x="350" y="213" />
+			<Action name="물약NPC클릭" x="820" y="483" />
+			<Action name="NPC상점열기" x="1350" y="623" />
+			<Action name="상점판매탭" x="300" y="93" />
+			<Action name="일관판매" x="400" y="823" />
+			<Action name="장비분해" x="1210" y="173" />
+			<Action name="장비특화" x="1310" y="173" />
+			<Action name="분해탭" x="1270" y="143" />
+			<Action name="분해하기" x="700" y="813" />
+			<Action name="특화자동선택" x="1200" y="823" />
+			<Action name="특화강화하기" x="1450" y="823" />
+			<Action name="사냥달성도" x="420" y="33" />
+			<Action name="반퀘체크" x="220" y="23" />
+			<Action name="반퀘NPC옆" x="1023" y="258" />
+			<Action name="마을NPC클릭" x="800" y="400" />
+			<Action name="상점NPC위치" x="1366" y="427" />
+			<Action name="상점NPC클릭" x="896" y="437" />
+			<Action name="절전모드" x="790" y="752" />
+		</Menu>
+	</Config>
+	<IteamBreak>
+		<PointData actionname="메뉴" delay="4"/>
+		<PointData actionname="장비분해" delay="6"/>
+		<PointData actionname="분해탭" delay="2"/>
+		<PointData actionname="분해하기" delay="1"/>
+		<PointData actionname="분해하기" delay="1"/>
+		<PointData actionname="분해하기" delay="1"/>
+		<PointData actionname="분해하기" delay="1"/>
+		<PointData actionname="분해하기" delay="1"/>
+		<PointData actionname="분해하기" delay="1"/>
+		<PointData actionname="분해하기" delay="1"/>
+		<PointData actionname="분해하기" delay="1"/>
+		<PointData actionname="분해하기" delay="1"/>
+		<PointData actionname="분해하기" delay="2"/>
+		<PointData actionname="기본클릭" delay="2"/>
+		<PointData actionname="종료" delay="3"/>
+		
+	    <PointData actionname="메뉴" delay="4"/>
+		<PointData actionname="장비특화" delay="6"/>
+		<PointData actionname="특화자동선택" delay="1"/>
+		<PointData actionname="특화강화하기" delay="1"/>
+		<PointData actionname="특화자동선택" delay="1"/>
+		<PointData actionname="특화강화하기" delay="1"/>
+		<PointData actionname="특화자동선택" delay="1"/>
+		<PointData actionname="특화강화하기" delay="1"/>
+		<PointData actionname="종료" delay="3"/>
+	</IteamBreak>
+	<Quest>
+		<PointData actionname="기본클릭" delay="2"/>
+		<PointData actionname="퀘스트1" delay="2"/>
+		<PointData actionname="퀘스트1" delay="2"/>
+		<PointData actionname="바로가기" delay="2"/>
+		<PointData actionname="확인" delay="5"/>
+		<PointData actionname="반퀘NPC클릭" delay="7"/>
+		<PointData actionname="반퀘NPC클릭" delay="7"/>
+		<PointData actionname="반퀘NPC클릭" delay="7"/>
+		<PointData actionname="반퀘NPC클릭" delay="7"/>
+		<PointData actionname="확인" delay="3"/>
+		<PointData actionname="확인" delay="3"/>
+		<PointData actionname="반퀘체크" delay="1"/>
+	</Quest>
+	<ReQuest>
+		<PointData actionname="맵" delay="3"/>
+		<PointData actionname="반퀘NPC옆" delay="3"/>
+		<PointData actionname="종료" delay="5"/>
+		<PointData actionname="반퀘NPC클릭" delay="7"/>
+		<PointData actionname="반퀘NPC클릭" delay="7"/>
+		<PointData actionname="확인" delay="3"/>
+		<PointData actionname="확인" delay="3"/>
+		<PointData actionname="반퀘체크" delay="1"/>
+	</ReQuest>
+	<Return>
+		<PointData actionname="퀘스트1" delay="2"/>
+		<PointData actionname="퀘스트1" delay="2"/>
+		<PointData actionname="맵" delay="4"/>
+		<PointData actionname="사냥터1" delay="3"/>
+		<PointData actionname="종료" delay="3"/>
+	</Return>
+	<Hunting>
+		<PointData actionname="사냥달성도" delay="3"/>
+		<PointData actionname="사냥달성도" delay="3"/>
+	</Hunting>
+	<ScrollQuest>
+		<PointData actionname="사냥달성도" delay="3"/>
+		<PointData actionname="물약4" delay="3"/>
+	</ScrollQuest>
+	<Click>
+		<PointData actionname="기본클릭" delay="3"/>
+	</Click>
+	<Cancle>
+		<PointData actionname="취소" delay="3"/>
+	</Cancle>
+	<Confirm>
+		<PointData actionname="확인" delay="3"/>
+		<PointData actionname="확인" delay="3"/>
+	</Confirm>
+	<Shop>
+		<PointData actionname="물약4" delay="3"/>
+		<PointData actionname="맵" delay="3"/>
+		<PointData actionname="상점NPC위치" delay="3"/>
+		<PointData actionname="종료" delay="10"/>
+		
+		<PointData actionname="상점NPC클릭" delay="2"/>
+		<PointData actionname="NPC상점열기" delay="2"/>
+		<PointData actionname="NPC상점열기" delay="2"/>
+		<PointData actionname="상점판매탭" delay="2"/>
+		<PointData actionname="상점판매탭" delay="2"/>
+		<PointData actionname="일관판매" delay="2"/>
+		<PointData actionname="일관판매" delay="2"/>
+		<PointData actionname="종료" delay="5"/>
+	</Shop>
+	<SafeMode>
+		<PointData actionname="절전모드" delay="3"/>
+	</SafeMode>
+</MouseMacro>
