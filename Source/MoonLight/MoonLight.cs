@@ -246,7 +246,14 @@ namespace MoonLight
         public async void BotSendMessage(string msg)
         {
 			string path = @"img\fullscreen.bmp";
-			imgMacro.GetFullScreen().Save(path, System.Drawing.Imaging.ImageFormat.Bmp);
+            try
+            {
+                imgMacro.GetFullScreen().Save(path, System.Drawing.Imaging.ImageFormat.Bmp);
+            }
+            catch
+            {
+
+            }
 
 			if (bot != null)
             {
