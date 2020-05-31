@@ -688,7 +688,6 @@ namespace MoonLight
         {
             // HP
             string hp = imgMacro.ScreenCapture(ssHP, pbHP);
-            string temp = hp;
             try
             {
                 hp = hp.Trim();
@@ -701,7 +700,6 @@ namespace MoonLight
                 int nHP = int.Parse(hp);
                 if (nHP < 6000 && nHP > 2000)
                 {
-                    BotSendMessage(temp);
                     BotSendMessage("HP : " + hp);
                     AddMacro(MacroType.eShop);
                     AddMacro(MacroType.eReturn);
@@ -728,9 +726,9 @@ namespace MoonLight
 
                 if (questStart == false && qc2.IndexOf("완료") >= 0 && stopwatch.Elapsed.Minutes > 1)
                 {
-                    stopwatch.Stop();
                     BotSendMessage(string.Format("{0} (소요시간 : {1}분", "퀘스트 완료", stopwatch.Elapsed.Minutes));
-                    
+                    stopwatch.Stop();
+
                     questStart = true;
                     stopwatch.Reset();
                     stopwatch.Start();
