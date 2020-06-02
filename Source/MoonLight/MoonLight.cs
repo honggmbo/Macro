@@ -81,6 +81,7 @@ namespace MoonLight
         public Rectangle ssRepeatedQuest = new Rectangle(517, 377, 576, 46);
         public Rectangle ssGohome = new Rectangle(641, 377, 328, 56);
 		public Rectangle ssSafeMode = new Rectangle(628, 736, 359, 118);
+		public Rectangle ssInventory = new Rectangle(1045, 104, 544, 44);
 
 		// Lock
 		static readonly object _locker = new object();
@@ -485,9 +486,15 @@ namespace MoonLight
                         return 2;
                     }
                 }
+				else if (pd.actionName == "상점종료체크")
+				{
+					while(CheckUserInfo_Shop())
+					{
+						Thread.Sleep(2000);
+					}
+				}
 
                 imgMacro.InClick(pd.pt.X, pd.pt.Y);
-
                 Thread.Sleep(pd.delay * 1000);
             }
 
@@ -998,7 +1005,28 @@ namespace MoonLight
             return true;
         }
 
-        public int GetXmlHuntingGround()
+		public bool CheckUserInfo_Shop()
+		{
+			// qc2 Check
+			string shop = imgMacro.ScreenCapture(ssInventory, null);
+			try
+			{
+				if (shop.Contains("모두") || shop.Contains("장비") || shop.Contains("소모") || shop.Contains("음식") || shop.Contains("재료") || shop.Contains("기타"))
+				{
+					ActionData ad = dActionData["종료"];
+					imgMacro.InClick(ad.pt.X, ad.pt.Y);
+					return true;
+				}
+			}
+			catch
+			{
+
+			}
+
+			return false;
+		}
+
+		public int GetXmlHuntingGround()
         {
             List<PointData> hg = macro[MacroType.eReturn];
             foreach (PointData pd in hg)

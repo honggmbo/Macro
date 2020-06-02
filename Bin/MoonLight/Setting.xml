@@ -65,6 +65,9 @@
 			<Action name="상점NPC위치" x="1366" y="427" />
 			<Action name="상점NPC클릭" x="896" y="437" />
 			<Action name="절전모드" x="790" y="752" />
+			<Action name="상점종료체크" x="220" y="23" />
+			<Action name="분해종료체크" x="220" y="23" />
+			<Action name="특화종료체크" x="220" y="23" />
 		</Menu>
 	</Config>
 	<IteamBreak>
@@ -157,8 +160,12 @@
 		<PointData actionname="일관판매" delay="2"/>
 		<PointData actionname="일관판매" delay="2"/>
 		<PointData actionname="종료" delay="5"/>
+		<PointData actionname="상점종료체크" delay="1"/>
 	</Shop>
 	<SafeMode>
 		<PointData actionname="절전모드" delay="3"/>
 	</SafeMode>
+	<Exit>
+		<PointData actionname="종료" delay="3"/>
+	</Exit>
 </MouseMacro>
